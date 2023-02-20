@@ -1,6 +1,5 @@
 import { promises as fs } from 'fs'
 import { nanoid } from 'nanoid'
-import { runInThisContext } from 'vm'
 
 class ProductManager {
     constructor() {
